@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -c \"^[[:space:]]*//\" /c/Users/Oskari/Desktop/CODE/PROJECTS/discord-example-app-main/discord-example-app-main/*.js /c/Users/Oskari/Desktop/CODE/PROJECTS/discord-example-app-main/discord-example-app-main/examples/*.js)",
+      "Bash(npm run:*)",
+      "Bash(npm start:*)",
+      "Bash(xargs wc:*)",
+      "Bash(npm install:*)",
+      "Bash(node --check app.js)",
+      "Bash(node --check roat.js)",
+      "Bash(node --check utils.js)",
+      "Bash(node --check commands.js)",
+      "Bash(curl -Lo ngrok.zip https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip)",
+      "Bash(unzip -o ngrok.zip ngrok.exe)",
+      "Bash(rm ngrok.zip)",
+      "Bash(where.exe ngrok:*)",
+      "Bash(Get-Command ngrok:*)",
+      "Bash(cmd /c \"where ngrok\")",
+      "Read(//c/ProgramData/chocolatey/bin/**)",
+      "Read(//c/Users/Oskari/AppData/Local/ngrok/**)",
+      "Read(//c/Users/Oskari/**)",
+      "Bash(powershell -Command \"[System.Environment]::GetEnvironmentVariable\\(''Path'', ''Machine''\\)\")",
+      "Bash(powershell -Command \"[System.Environment]::GetEnvironmentVariable\\(''Path'', ''User''\\)\")",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

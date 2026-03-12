@@ -1,0 +1,26 @@
+{
+  "name": "roatpkz-discord-bot",
+  "private": true,
+  "version": "2.0.0",
+  "description": "RoatPkz Discord bot — calls Mac M4 Ollama API for player stats and leaderboards",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "register": "node commands.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "discord-interactions": "^4.0.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "mongoose": "^9.3.0",
+    "ngrok": "^5.0.0-beta.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

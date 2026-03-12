@@ -23,7 +23,10 @@
       "Bash(powershell -Command \"[System.Environment]::GetEnvironmentVariable\\(''Path'', ''User''\\)\")",
       "Bash(git init:*)",
       "Bash(git remote:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
     ]
   }
 }

@@ -123,7 +123,7 @@ app.post('/interactions', verifyKeyMiddleware(process.env.PUBLIC_KEY), async fun
 });
 await connectDB();
 app.listen(PORT, async () => {
-  console.log(`Bot listening on port test ${PORT}`);
+  console.log(`Bot listening on port ${PORT}`);
   const health = await checkMacHealth();
   if (health) {
     console.log(`Mac API connected — model: ${health.model}, sessions: ${health.active_sessions}`);
